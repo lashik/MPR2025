@@ -1,10 +1,4 @@
-
-
-import './globals.css'
-
 function Dashboard() {
-
-
     return (
         <>
             <div className='main-container col'>
@@ -21,11 +15,7 @@ function Dashboard() {
                             <div className='pdf-preview'></div>
                         </div>
                     </div>
-
-
-
                     <div className='pdf-view'></div>
-
                     <div className='text-area'></div>
 
                 </div>
