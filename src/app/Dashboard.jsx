@@ -1,4 +1,7 @@
 function Dashboard() {
+    function formatText(input) {
+        return input.replace(/<br>/g, "<br/>").replace(/\n/g, "<br/>");
+    }
     return (
         <>
             <div className='main-container col'>
